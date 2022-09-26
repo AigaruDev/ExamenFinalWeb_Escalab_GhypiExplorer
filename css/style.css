@@ -34,3 +34,32 @@ ul {
     background: #0d6efd;
     color: white;
   }
+  .logo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .btn{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 576px){
+    .logo{
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 577px) and (max-width: 767px){
+
+    .logo{
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px){
+
+  }
+
+  @media (min-width: 992px) {
+
+  }
