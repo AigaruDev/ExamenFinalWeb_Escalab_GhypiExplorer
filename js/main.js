@@ -40,7 +40,7 @@ const getImagenes = async () => {
 
         const gif = document.createElement('img');
         gif.src = imagenes.data[i].images["original"].url;
-        gif.className = "mb-3";
+        gif.className = "mb-3 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3";
         document.getElementById("listas").appendChild(gif);
 
     }
