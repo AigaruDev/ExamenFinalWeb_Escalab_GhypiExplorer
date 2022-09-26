@@ -68,7 +68,7 @@ function ultimasBusquedas(){
     }
     return historial;
  }
-     //document.getElementById("a0").innerHTML = historial[0];
+
 }
 
 
@@ -101,7 +101,7 @@ btn.onclick = () =>{
         ultimasBusquedas();  
          
     }else{
-        alert("Ingresa algo para buscar Longi");
+        alert("Ingresa alguna palabra o texto para buscar gifs");
     }    
 }
 
@@ -110,8 +110,5 @@ window.addEventListener('scroll',()=>{
         getImagenes();
     }
 })
-
-//ultimasBusquedas();
-//trending();
 
 
