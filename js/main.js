@@ -14,6 +14,7 @@ let q ='';
 let urlFull='';
 let historial = [];
 let h='';
+let banderaBusqueda = false;
 
 window.onload = function () {
     ultimasBusquedas();
